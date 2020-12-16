@@ -1,0 +1,121 @@
+.index-section{
+    margin-top: 7rem;
+
+    & p{
+        max-width: 50%;
+    }
+
+}
+
+.flowing-conversations{
+    margin-bottom: 7rem;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 20vh;
+        margin-top: -3rem;
+        background: url("../img/bg-section-bottom-desktop-2.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    
+    &::after{
+        content: "";
+        background-image: url("../img/bg-section-top-desktop-1.svg");
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 15vh;
+        margin-bottom: -7rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+} 
+
+
+.build-community{
+    padding-top: 5rem;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 20vh;
+        margin-top: -9rem;
+        background: url("../img/bg-section-bottom-desktop-2.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    &::after{
+        content: "";
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 15vh;
+        margin-bottom: -0.2rem;
+        background: url("../img/bg-footer-top-desktop.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+}
+
+
+.footer{
+
+&--row{
+    padding: 3.5rem;
+    background-color: $very_dark_cyan;
+    color: white;
+    position: relative;
+}
+
+&--icons i{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+
+    &:hover{
+        color: $very_pale_blue;
+    }
+    
+}
+
+&--form{
+    margin: 0 auto;
+} 
+
+}
+
+
+.number__images{
+    transform: translate(-70%);
+    margin-bottom: 1.2rem;
+}
+
+.grow-together{
+    background-color: $pale_blue;
+}
+
+
+.numbers::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -3.1rem;
+    background: url("../img/bg-section-top-desktop-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.users--row{
+    background-color: $pale_blue;
+    padding: 4rem;
+}

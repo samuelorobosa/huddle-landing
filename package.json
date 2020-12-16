@@ -1,0 +1,12 @@
+{
+  "name": "huddle-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass/main.scss css/style.css",
+    "devServer": "live-server"
+  },
+  "author": "Samuel Amagbakhen",
+  "license": "ISC"
+}

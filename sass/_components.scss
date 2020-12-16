@@ -1,0 +1,32 @@
+.btn-nav,
+.btn-nav:hover{
+    color: $pink;
+    border: 1px solid $pink;
+    border-radius: 25px;    
+    padding: 0.3rem 1.2rem;
+}
+
+
+.btn-index,
+.btn-index:hover{
+    background-color: $pink;
+    color: white;
+    border-radius: 25px;
+    padding: 0.9rem 2.3rem;
+}
+
+.form{
+
+&_button{
+    background-color: $pink;
+    color: #fff;
+    padding: 0.5rem 0.9rem;
+    margin-left: 2rem;
+}
+
+&_input{
+    outline: none;
+    padding: 0.4rem 0;
+}
+
+}
